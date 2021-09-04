@@ -10,7 +10,7 @@ const chunked = chunk(RobeIDs, 20)
 const apiKey = process.env.OPENSEA_API_KEY
 
 const fetchRobePage = async (ids: string[]) => {
-  let url = 'https://api.opensea.io/api/v1/assets?collection=lootproject&'
+  let url = 'https://api.opensea.io/api/v1/assets?collection=gear-for-punks&'
   url += ids.map((id) => `token_ids=${id}`).join('&')
 
   const res = await fetch(url, {
@@ -26,7 +26,7 @@ const fetchRobePage = async (ids: string[]) => {
         ...asset,
         image_url: await rarityImage(asset.token_metadata, {
           colorFn: ({ itemName }) =>
-            itemName.toLowerCase().includes('divine robe') && 'cyan',
+            itemName.toLowerCase().includes('hoodie') && 'cyan',
         }),
       }
     }),
@@ -55,7 +55,7 @@ export const fetchRobes = async () => {
             BigNumber.from(a.sell_orders[0]?.current_price.split('.')[0]),
           ),
         ),
-        url: a.permalink + '?ref=0xfb843f8c4992efdb6b42349c35f025ca55742d33',
+        url: a.permalink + '?ref=0xBA5EDc0d2Ae493C9574328d77dc36eEF19F699e2',
         svg: a.image_url,
       }
     })
