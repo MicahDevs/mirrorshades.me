@@ -37,7 +37,7 @@ const IndexPage = ({ robes, lastUpdate }: Props) => {
       <h1 className="text-lg md:text-3xl">Hoodie Gang</h1>
       <div className="text-center max-w-screen-md md:leading-loose">
         <p className="md:text-xl">
-          There are {robes.length} Gear Stash's for sale with Punk Hoodies. The floor
+          There are {robes.length} Gear Stash's for sale with Punk <strong>Designer Hoodies</strong>. The floor
           price is {robes[0].price} ETH.
         </p>
         <p className="md:text-lg pt-2">
