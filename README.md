@@ -1,5 +1,7 @@
-# robes.market
+# punkaf.market
 
-this is the repo that powers [robes.market](https://robes.market).
+this is the repo that powers [punkaf.market](https://punkaf.market).
 
-it's a next.js app hosted on vercel. pull requests welcome!
+Forked from the [ylukem's robes.market repo](https://github.com/ylukem/robes.market).
+
+
