@@ -21,8 +21,8 @@ function Robes({ Component, pageProps }) {
           rel="stylesheet"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@ggcrypto" />
-        <meta property="og:url" content="https://punkaf.market" />
+        <meta name="twitter:creator" content="@@jack" />
+        <meta property="og:url" content="https://mirrorshades.me" />
         <meta property="og:title" content="punkaf.market" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta
