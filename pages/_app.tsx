@@ -23,18 +23,13 @@ function Robes({ Component, pageProps }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@@jack" />
         <meta property="og:url" content="https://mirrorshades.me" />
-        <meta property="og:title" content="punkaf.market" />
+        <meta property="og:title" content="mirrorshades.me" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta
           property="og:description"
           content="See the floor price of Mirrorshades from the Gear (for Punks) project."
         />
-        <meta property="og:image" content="http://147.135.115.140/home/ubuntu/og.png" />
-        <script
-          data-goatcounter="https://punkaf.goatcounter.com/count"
-          async
-          src="//gc.zgo.at/count.js"
-        ></script>
+        <meta property="og:image" content="../og.png" />
       </Head>
     </>
   )
