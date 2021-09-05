@@ -34,7 +34,7 @@ const Robe = ({ robe }: { robe: RobeInfo }) => {
 const IndexPage = ({ robes, lastUpdate }: Props) => {
   return (
     <div className="py-3 md:pb-0 font-mono flex flex-col justify-center items-center gap-4 pt-10 md:w-screen">
-      <h1 className="text-lg md:text-3xl">Designer Hoodie Gang</h1>
+      <h1 className="text-lg md:text-3xl">Mirrorshades Gang - get rekt</h1>
       <div className="text-center max-w-screen-md md:leading-loose">
         <p className="md:text-xl">
           There are {robes.length} Gear Stash's for sale with Punk <strong>Designer Hoodies</strong>. The floor
@@ -49,13 +49,13 @@ const IndexPage = ({ robes, lastUpdate }: Props) => {
           >
             worm_emoji
           </a>
-          . punkaf.market by{' '}
+          . mirrorshades.me by{' '}
           <a
             target="_blank"
-            href="https://twitter.com/ggcrypto"
+            href="https://twitter.com/jack"
             className="underline"
           >
-            GGCrypto
+            Boxsy
           </a>
           .
         </p>
