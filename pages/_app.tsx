@@ -27,9 +27,9 @@ function Robes({ Component, pageProps }) {
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta
           property="og:description"
-          content="See the floor price of Hoodies from the Gear (for Punks) project."
+          content="See the floor price of Mirrorshades from the Gear (for Punks) project."
         />
-        <meta property="og:image" content="https://punkaf.market/og.png" />
+        <meta property="og:image" content="http://147.135.115.140/home/ubuntu/og.png" />
         <script
           data-goatcounter="https://punkaf.goatcounter.com/count"
           async
