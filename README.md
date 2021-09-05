@@ -1,4 +1,4 @@
-# punkaf.market
+# mirrorshades.me
 
 This is the repo that powers [mirrorshades.me](https://mirrorshades.me).
 
