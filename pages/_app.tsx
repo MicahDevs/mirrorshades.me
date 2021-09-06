@@ -31,9 +31,6 @@ function Robes({ Component, pageProps }) {
         />
         <meta property="og:image" content="../og.png" />
       </Head>
-<iframe src="https://ethtalk.app/embed?url=https://ethtalk.app/" id="ethtalk" width="100%" frameBorder="0"></iframe>
-
-<script>window.addEventListener("message",function(t){"string"==typeof t.data&&-1!=t.data.indexOf("height:")&&(document.getElementById("ethtalk").style.height=t.data.split(":")[1]+"px")});</script>
     </>
   )
 }
